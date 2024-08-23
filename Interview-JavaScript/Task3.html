@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+    How do I run this?
+
+    Locate the .html file in the your GUI file system (Apple Finder or the Windows), right click, then press OPEN WITH
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #todo-list {
+            margin-top: 20px;
+            list-style-type: none;
+            padding: 0;
+        }
+        .todo-item {
+            padding: 10px;
+            margin: 5px 0;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+        }
+        .todo-item button {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Todo List</h1>
+
+    <input type="text" id="todo-input" placeholder="Enter a new todo">
+    <button id="add-todo-btn">Add Todo</button>
+
+    <ul id="todo-list"></ul>
+
+    <script>
+        const todoList = [];
+        
+        // BE ABLE TO EXPLAIN what document.getByElementID() and .addEventListener() does in this context
+        document.getElementById('add-todo-btn').addEventListener('click', () => {
+            
+            // BE ABLE TO EXPLAIN what document.getByElementID() does in this context
+            const todoInput = document.getElementById('todo-input');
+            const createdTodo = todoInput.value.trim();
+            
+            // COMPLETE:
+            // What should happen when the Add Todo button is clicked? 
+            // YOUR CODE HERE 
+
+            // reset the input value after add todo is clicked.
+            todoInput.value = '';
+        });
+        
+        // This re-renders the list of items displayed on the webpage based on the new todoList
+        function refreshTodoList() {
+            
+            // BE ABLE TO EXPLAIN what document.getByElementID() does in this context
+            const todoListElement = document.getElementById('todo-list');
+            todoListElement.innerHTML = '';
+
+            todoList.forEach((todo, index) => {
+                const listItem = document.createElement('li');
+                listItem.className = 'todo-item';
+                // Each item in the todo list has a button attached to it that has an event that
+                // deletes the todo using the function you wrote
+                listItem.innerHTML = `
+                    ${todo}
+                    <button onclick="deleteTodo(${index})">Delete</button> 
+                `;
+                todoListElement.appendChild(listItem);
+            });
+        }
+
+        function deleteTodo(index) {
+            // YOUR CODE HERE 
+            refreshTodoList()
+        }
+
+        function addTodo(todo) {
+            // YOUR CODE HERE
+            refreshTodoList()
+        }
+    </script>
+</body>
+</html>
