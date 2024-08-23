@@ -1,4 +1,4 @@
-# F2024 Catalyst Learning Take-Home Chalenge - From Procedural to Event Driven Programming Using JavaScript
+# F2024 Catalyst Learning Take-Home Challenge - From Procedural to Event Driven Programming Using JavaScript
 
 Catalyst is all about learning, so this is designed to assess how well you learn/are willing to learn Computer Science principles! You will be tasked with exploring a new computing technology by creating a small product based on it.
 
