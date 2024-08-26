@@ -27,9 +27,9 @@ You need some sort of code editor. VSCode is likely the easiest: https://code.vi
 Download the folder onto your machine. Open the folder using VSCode. Open your terminal by clicking the terminal button on the top of VSCode and clicking New Terminal.
 
 **Verify with NodeJS and NPM are installed by running:** \
-node -v \
-npm -v \
-Run npm i --save-dev @types/node in the terminal
+`node -v` \
+`npm -v` \
+Run `npm i --save-dev @types/node` in the terminal
 
 Note: We will have office hours to come get help setting up your machine and feel free to ask others for help setting up this part.
 
