@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <!--
-    How do I run this?
+    How do I run this script?
 
-    Locate the .html file in the your GUI file system (Apple Finder or the Windows), right click, then press OPEN WITH
+    Locate the .html file in the your GUI file system (Apple Finder or the Windows), 
+    right click, then press OPEN WITH
+
+    YOUR OBJECTIVE:
+
+    Take the logic we've defiend in the last two tasks and tie them to the parts 
+    of the code that make the most sense. By the end, you should have a simple webpage 
+    that lets you add todos!
+
+    Most code is already implemented. Only modify the file under the "// YOUR CODE HERE" comments.
+    For this file, be sure you understand the sections labeled with "// BE ABLE TO EXPLAIN."
 -->
 <html lang="en">
 <head>
@@ -51,8 +61,7 @@
             const todoInput = document.getElementById('todo-input');
             const createdTodo = todoInput.value.trim();
             
-            // COMPLETE:
-            // What should happen when the Add Todo button is clicked? 
+            // Add non-empty string todos to the todo list
             // YOUR CODE HERE 
 
             // reset the input value after add todo is clicked.
@@ -80,12 +89,12 @@
         }
 
         function deleteTodo(index) {
-            // YOUR CODE HERE 
+            // YOUR CODE HERE (recycle your work from former tasks)
             refreshTodoList()
         }
 
         function addTodo(todo) {
-            // YOUR CODE HERE
+            // YOUR CODE HERE (recycle your work from former tasks)
             refreshTodoList()
         }
     </script>

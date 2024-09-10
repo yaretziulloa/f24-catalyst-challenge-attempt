@@ -1,24 +1,28 @@
-// How do I run this? 
+// How do I run this script? 
 // node Task1b.js    
 
 todoList = []; 
 /**
- * COMPLETE: 
+ * YOUR OBJECTIVE: 
  * We do a lot in the addAndPrintTodos() funciton. It's also limited in
  * in what it can do because it takes no input.
  * Is there a way to seperate the concerns so that they could be tied to particular events
  * while also allowing us to add any todos that we want?
  *
- * Replace the __ in each of the todos and define some logic to accomplish these tasks
- * inspired by what you did in Part A
+ * Replace the "__" in each of the "__todo" function definitions to create more logical 
+ * function names and define some logic to accomplish these tasks inspired by 
+ * what you did in Part A. Call both function in mainTask1b().
+ * 
+ * In addition to updating function names, only modify the file under 
+ * the "// YOUR CODE HERE" comments.
  */
 
-function ___todo(todoString) {
-
+function __todo(todoString) {
+    // YOUR CODE HERE
 }
 
 function __todo() {
-
+    // YOUR CODE HERE
 }
 
 /**
@@ -27,7 +31,7 @@ function __todo() {
  * we do it here
  */
 function mainTask1b() {
-    // CALL THE FUNCTIONS HERE
+    // YOUR CODE HERE (simply call the functions you implemented above)
 }
 
 // This bit of code ensures that a main method exists! If it doesn't, then it throws an error

@@ -1,8 +1,8 @@
-# F2024 Catalyst Learning Take-Home Chalenge - From Procedural to Event Driven Programming Using JavaScript
+# F2024 Catalyst Learning Take-Home Challenge - From Procedural to Event Driven Programming Using JavaScript
 
-Catalyst is all about learning, so this is designed to assess how well you learn/are willing to learn Computer Science principles! You will be tasked with exploring a new computing technology by creating a small product based on it.
+Catalyst is all about learning, so this is designed to assess how well you learn/are willing to learn programming principles! You will be tasked with exploring a new computing technology by creating a small product based on it.
 
-This project (as well as Catalyst in general) is designed for people with Computer Science skills equivilant to a 4 or 5 on AP CSA in an object oriented language or completion of Introduction to Computer Science at the collegiate level. If you've never programmed before, you may find this task difficult.
+This project (as well as Catalyst in general) is designed for people with programming skills equivilant to a 4 or 5 on AP CSA in an object oriented language or completion of Introduction to Computer Science at the collegiate level. If you've never programmed before, you may find this task difficult.
 
 After completing this project, please submit it and attend your discussion interview slot where we will walk through your solution and ask you questions about the JS you implemented. If you recevied a learning interview, you WILL receive a guaranteed discussion slot.
 
@@ -27,9 +27,9 @@ You need some sort of code editor. VSCode is likely the easiest: https://code.vi
 Download the folder onto your machine. Open the folder using VSCode. Open your terminal by clicking the terminal button on the top of VSCode and clicking New Terminal.
 
 **Verify with NodeJS and NPM are installed by running:** \
-node -v \
-npm -v \
-Run npm i --save-dev @types/node in the terminal
+`node -v` \
+`npm -v` \
+Run `npm i --save-dev @types/node` in the terminal
 
 Note: We will have office hours to come get help setting up your machine and feel free to ask others for help setting up this part.
 

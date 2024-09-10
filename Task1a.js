@@ -1,18 +1,21 @@
-// HOW DO I RUN THIS?
+// How do I run this script?
 
 // In the terminal folder with Task1a.ts
 // node Task1a.js   
 
-// string[]
+// type: string[]
 const todoList = []; 
 
 /**
- * COMPLETE: 
- * There's a couple stuff you want to work on during your first week at Yale.
- * Write a procedure that adds these todos, represented as strings, to the TodoList
- * Then, print the TodoList in a nice, readable way.
+ * YOUR OBJECTIVE: 
+ * Suppose there are some tasks you want to work on during your first week at Yale.
+ * Write a procedure that adds the 3 below TODOS on line 18, represented as strings, 
+ * to the TodoList array defined on line 7. Then, print the TodoList in a 
+ * nice, readable way.
  * 
- * TODOS
+ * Only modify the file under the "// YOUR CODE HERE" comments.
+ * 
+ * TODOS:
  * 1. Apply to y/cs!
  * 2. Pick out my classes
  * 3. Have dinner with my suite

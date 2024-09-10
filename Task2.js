@@ -1,4 +1,4 @@
-// How do I run this? 
+// How do I run this script? 
 // node Task2.ts    
 
 todoList = [
@@ -8,14 +8,17 @@ todoList = [
 ];
  
 /**
- * COMPLETE
- * Write a function that takes in an index of the todo 
- * and deletes the corresponding one
- * Ex: 
- * Todo = "Apply to y/cs!", and after deleteTodo(0) has been ran
- * const todos should look like this:
+ * YOUR OBJECTIVE
+ * Write a function that takes in an index of the todoList array 
+ * and deletes the corresponding string (assume 0-indexing).
  * 
- * const todos = [
+ * Only modify the file under the "// YOUR CODE HERE" comments.
+ * 
+ * Ex: 
+ * todoList[0] = "Apply to y/cs!", and after deleteTodo(0) has been ran
+ * the todoList array should look like this:
+ * 
+ * const todoList = [
     "Pick out my classes",
     "Have dinner with my suite"
 ];
