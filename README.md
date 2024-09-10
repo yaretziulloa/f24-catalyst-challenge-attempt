@@ -39,17 +39,17 @@ The rest of the files will have instructions on how to run them.
 
 In this task, you will be tasked with learning the basics of JavaScript and Event Driven Programming in creating a simple Todo List App. By the end, you will have a basic understanding of how to create an interactive website using HTML and JavaScript!
 
-Google is your friend! You are not expected to be familar with web development/software engineering principles. If you don't know how to do something (i.e. add an string to a list), Google it! Explore StackOverflow and relevant documentation. Please do not ChatGPT the entire project. It will show during the interview and Catalyst will not be a fun/meaningful experience for you if you need to lean on ChatGPT heavily.
+Google is your friend! You are not expected to be familar with web development/software engineering principles. If you don't know how to do something (i.e. add an string to a list), Google it! Explore StackOverflow and relevant documentation. Please do not ChatGPT the entire project. It will show during the interview and Catalyst will not be a fun/meaningful experience for you if you need to lean on ChatGPT heavily to generate code. Feel free to ask it conceptual questions, but stay away from the copy-code button.
 
 Further instructions on what you are expected to complete are in the code file of the particular task itself.
 
-## TASK I - What is Event Driven Programming?
+## Task I - What is Event Driven Programming?
 
-It's likely that the programming you're used to doing is **Procedural**. You tell the computer step by step what to do to accomplish a task (i.e. When the program starts, call the main() method and start executing code to start listing random numbers for 1 to 10)
+It's likely that the programming you're used to doing is **Procedural**. You tell the computer step by step what to do to accomplish a task (i.e. when the program starts, call the main() method and start executing code to start listing random numbers for 1 to 10)
 
 In **Event Driven Programmming (EDP)**, the paradigm flips. We tell the computer what to do _in the event_ something happens, whether that be a user typing into an input or clicking a button. In this task, we will explore EDP by writing some basic procedures, then work on _seperating the concerns_ so that they could be tied to particular events.
 
-**JavaScript** is a language used to specify the behavior of webpages (do this when that) and forms the backbone of y/cs applications. We will work with it throughout the project.
+**JavaScript** is a language used to specify the behavior of webpages (behavior = do this, when that) and forms the backbone of y/cs applications. We will work with it throughout the project.
 
 ### Part A
 
@@ -59,7 +59,7 @@ Get familar with the basics of JavaScript syntax to write a procedure that adds 
 
 Seperate the concerns (SoC) of this procedure into individual functions that handle specific portions. This SoC will prime tying specific parts of the program to events firing. Make the buisness logic of our application more flexible!
 
-## TASK II - Deleting!
+## Task II - Deleting!
 
 Delete an element from our todoList by index.
 
