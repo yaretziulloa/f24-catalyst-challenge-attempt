@@ -6,7 +6,7 @@ This project (as well as Catalyst in general) is designed for people with progra
 
 After completing this project, please submit it and attend your discussion interview slot where we will walk through your solution and ask you questions about the JS you implemented. If you recevied a learning interview, you WILL receive a guaranteed discussion slot.
 
-This is designed to be completed in ~1-6 hours, depending on your prior experience. Please work individually!
+Please work individually!
 
 ## Using the Terminal
 
