@@ -70,3 +70,6 @@ HTML (HyperText Markup Language) is the standard markup language used for creati
 The point of this task is not to understand HTML, but you should study the code and try to identfiy the points that are likely responsible for key actions of the Todo App. Where is the button being created to add the todos? What about the one to delete?
 
 Take the logic we've defiend in the last two tasks and tie them to the parts of the code that make the most sense. By the end, you should have a simple webpage that lets you add todos!
+
+FAQ
+All the .ts runs should be replaced with .js! apologies!
